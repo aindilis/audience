@@ -1,0 +1,22 @@
+./find-similar-functions.pl /var/lib/myfrdcsa/codebases/internal/unilang/scripts/convert-emacs-data-to-perl.pl ProcessDomain
+
+/usr/share/perl5/Do/Misc/ListProcessor2.pm: ProcessDomain
+/usr/share/perl5/Do/ListProcessor.pm: ProcessDomain
+/usr/share/perl5/Do/Misc/ListProcessor2.pm: ProcessDomainNew
+/usr/share/perl5/LOL/TodoListParser.pm: Assert
+/usr/share/perl5/Do/Misc/ListProcessor2.pm: GetUniLangEntryID
+/usr/share/perl5/Do/ListProcessor.pm: GetUniLangEntryID
+/var/lib/myfrdcsa/codebases/internal/unilang/scripts/convert-perl-to-emacs-data.pl: Convert
+/usr/share/perl5/KBS2/Store/MySQL.pm: NonTrivialFormula
+/usr/share/perl5/KBS2/Store/Collection.pm: NonTrivialFormula
+/usr/share/perl5/KBS2/Store/Memory.pm: NonTrivialFormula
+/usr/share/perl5/LOL/TodoListParser.pm: GetUniLangEntryID
+/usr/share/perl5/Digi/Util/GetAuthors.pm: GetAuthors
+/usr/share/perl5/Do/Misc/ListProcessor2.pm: ProcessReturnDomain
+/var/lib/myfrdcsa/codebases/internal/do/scripts/get-sublist.pl: DeMenu
+/usr/share/perl5/KBS2/Client.pm: Send
+/var/lib/myfrdcsa/codebases/internal/do/scripts/get-sublist.pl: GetMenusIndex
+/usr/share/perl5/Do/Misc/ListProcessor2.pm: Index
+/usr/share/perl5/KBS2/Store/MySQL.pm: Copy
+/usr/share/perl5/KBS2/Store/Memory.pm: Copy
+/usr/share/perl5/KBS2/Store/Collection.pm: Copy

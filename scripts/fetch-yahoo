@@ -1,0 +1,5 @@
+#!/usr/bin/perl -w
+
+# get the latest version of fetchyahoo and then run this command
+
+./fetchyahoo --username adougher9 --password=<password> --spoolfile mymail3 --allmsgs 

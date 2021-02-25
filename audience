@@ -1,0 +1,25 @@
+#!/usr/bin/env perl
+
+use Audience;
+use MyFRDCSA;
+
+use UniLang::Agent::Agent;
+use UniLang::Util::Message;
+
+# do not add an agent here, it goes in Audience::Agent::UniLang;
+
+$UNIVERSAL::agent = UniLang::Agent::Agent->new
+  (Name => "Audience",
+   ReceiveHandler => \&Receive);
+$UNIVERSAL::agent->DoNotDaemonize(1);
+$UNIVERSAL::audience = Audience->new;
+
+sub Receive {
+  my %args = @_;
+  $UNIVERSAL::audience->MyProxy->ReceiveAudienceMessage
+    (
+     AudienceMessage => $args{Message},
+    );
+}
+
+$UNIVERSAL::audience->Execute;

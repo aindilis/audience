@@ -1,0 +1,8 @@
+    # check for people with whom conversations have been queued
+    if (0) {
+      $self->AddConversation
+	(Audience::Bot::Conversation->new
+	 ());
+    }
+    # $self->ContinueConversations;
+    # usleep 250;

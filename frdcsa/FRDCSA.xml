@@ -1,0 +1,118 @@
+<system>
+  <title>Audience</title>
+  <slogan>Isolation is a state of mind</slogan>
+  <acronym-expansion>
+    Achieving Understanding Directly Involving Expertly Nuanced Communication Events
+  </acronym-expansion>
+  <location></location>
+  <short-description>
+    Anonymous communication implementation
+  </short-description>
+  <medium-description>
+    Audience indirectly implements a system to communicate anonymously for
+    people  who   are  in  need  of  maintaining   contact  but  screening
+    communications.
+  </medium-description>
+  <long-description>
+    <p>
+      Since this description was last modified there have been major
+      additions to the Audience system.  The primary system is an IMAP
+      client that is able to read mail and queue actions based on
+      programmatic responses to the mail.  The reasoning and usability
+      behind this is still at a primitive state but I've written a set
+      of filters (actually belonging to the antispam-console system
+      but should be refactored into audience).  At any rate it is
+      interesting because the system is now at a more advanced state.
+      I suppose it would not hurt to allow encryption of these email
+      messages.
+    </p>
+
+    <p>
+      Audience indirectly implements a system to communicate
+      anonymously for people who are in need of maintaining contact
+      but screening communications.  This functions not only over the
+      network, but also for other communication media, such as person
+      to person.  A temporary system of ACLs giving permission to
+      participate in certain events is used.  In the future,
+      permission will be inferred from a KB through Mach.
+    </p>
+
+    <p>Network  technologies involved  are  a web  based chat  server,
+    freenet,   and    a   freenet   chat   and    mail   system   from
+    http://eof.sourceforge.net/,   as    well   as   a    screen   for
+    derogatory/hate/negative communications,  and an interface  to the
+    Unilang system.</p>
+
+    <p>This IM client is  now operational and integrated with UniLang.
+    We  still are  adding features  to  this client  rather than  just
+    starting it running now.</p>
+
+    <p>Currently,  Audience uses  a custom  system called  Diplomat to
+    guide  behaviour  intelligently.   Diplomat uses  Tabari  to  code
+    Audience   communications   into   event  categories.    Then   an
+    appropriate response is  generated.  For instance, if  the user is
+    insulted,   this    event   is   coded   (and    logged   to   the
+    event-system). Diplomat then employs planning wrt goals and social
+    rules to determine an appropriate response, currently only using a
+    simple state transition table, whereas  in the future we might use
+    AI  adversarial  planning  tools.    An  appropriate  response  is
+    selected  and generated,  and in  this example,  that would  be to
+    demand an apology.  If this failed, relations would be reduced and
+    if that failed diplomatic relations  would be ended.  Diplomat may
+    probably end  up as either its  own system or in  Mach rather than
+    Audience.</p>
+
+    <p>Here  is a  sample of  event types  taken from  Tabari: Accuse,
+    agree future  act, agree,  apologize, approve, arrest  person, ask
+    information, ask material aid, ask  policy aid, assure, break dipl
+    relat, call  for, cancel  event, comment, consult,  criticize, cut
+    aid,  cut  routine  act,  decline  comment,  demand,  demonstrate,
+    denigrate, deny  accusation, deny action, deny,  discard, endorse,
+    expel group, expel personnel, expel, explain position, extend econ
+    aid, extend  mil aid,  force, formal  protest, give  other assist,
+    grant  asylum,  grant  privilege, grant,  halt  negotiation,  make
+    agreement, make  complaint, meet,  mil engagement,  military demo,
+    neutral  comment,  noninjury  destr, nonmil  demo,  nonmil  destr,
+    nonmil  threat,   offer  proposal,  optimist   comment,  pessimist
+    comment, plead, praise, prom material support, prom other support,
+    prom policy  support, promise,  propose, protest,  receive, reduce
+    relations,  refuse, reject,  release,  request, retract,  retreat,
+    reward, seize possession, seize,  specif threat, state invitation,
+    surrender, threaten, truce, turn down, ultimatum, unspecif threat,
+    urge, visit, warn, and yield.</p>
+
+    <p>Another aspect of audience will be an intelligent communication
+    proxy, that will  actually communicate with the user  to give them
+    the impression of conversation.   Language models will be produced
+    from  my writings  and chat  logs  to interact  with a  yet to  be
+    determined  authenticated chat  bot/dialog system  (most  likely a
+    hybrid UniLang agent).</p>
+
+    <p>Note that, far  from being a deceptive device,  this agent will
+    allow  phenomenal improvements  in  socialization.  For  instance,
+    people  equipped  with  MyFRDCSA  can let  their  agents  interact
+    autonomously  with other  people's  agents, and  their agents  can
+    engage  in a complex  dialog respecting  both users  interests and
+    privacy.  In this way, one would not have to constantly go through
+    the mundane  process of becoming  aquainted with other  people and
+    their  BDIs.   Rather,  the   most  important  concepts  would  be
+    forwarded.</p>
+
+    <p>Also, their agents can autonomously "spider" the social network
+    by asking for referrals and references by other agents.  This will
+    in effect unite the MyFRDCSA  together in a collective format that
+    will result in immense improvements in capabilities.  Furthermore,
+    with   trust-based  knowledge   sharing  clients,   combined  with
+    Clairvoyance for  instance, users  will rapidly become  experts in
+    all fields they are interested  in.  This is the mutual power goal
+    that  we  are interested  in.   We  are  interested in  maximizing
+    everyone's  capabilities  rather  than  capitalizing  on  people's
+    weaknesses for personal gain.</p>
+    
+    <p>Last but not least, it  should be a proxy for communications to
+    the outside world,  for instance, for Brainstorm -  so that source
+    identity  is  not  revealed  to  parties  who  may  reveal  it  to
+    aggressors.  </p>
+
+  </long-description>
+</system>

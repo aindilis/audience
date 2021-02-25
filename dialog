@@ -1,0 +1,36 @@
+#!/usr/bin/env perl
+
+use Audience::Dialog;
+
+die "Usage: audience <filename>\n" unless $ARGV[0];
+
+my $dialog = Audience::Dialog->new();
+
+$dialog->Start;
+
+# also prepare the user with the phone number to be dialed
+
+# show several talking points,  and references for further reading (in
+# the future, have a clarification dialog)
+
+# the  notion of  call  person is  that  pse or  manager  or mach,  or
+# whomever, will tell  you to call such and such  a person.  Then they
+# will show a  summary of "talking points" and  what the illocutionary
+# force  of the  message is.   Then the  dialog manager  (conversation
+# simulator)  comes  up  for  perusal  if  necessary.   If  there  are
+# operators they  have been scheduled  to tune  in for this  moment as
+# well.  Recording begins.  If the  call is automated, tts is enabled.
+# Speech recognition if possible is enabled by default.  Then the call
+# begins and the usual process ensues, where the chat-bot conversation
+# simulator listens to the users responses, and then provides the best
+# response   with  a   user  selection   capability.   Following   the
+# conversation, a critique is given  about the conversation, and notes
+# are made  about the  (estimated) mind  state of  the parties  in the
+# conversation.   The communication  is then  entired into  Audience's
+# communication database.
+
+# create an agent which will  talk to you, using the headphone, screen
+# etc,  using  dialog management.   Audience  talks  to other  people,
+# manages who to contact, etc,  how to minimize contacts, who you have
+# permission to contact.  That  information should be held in OpenCyc,
+# which means that OpenCyc must be working a little better.

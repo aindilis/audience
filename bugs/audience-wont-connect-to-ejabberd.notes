@@ -1,0 +1,4 @@
+(in /etc/ejabberd/ejabberd.yml set
+ (# starttls_required: true)
+ (s2s_use_starttls: optional)
+ )

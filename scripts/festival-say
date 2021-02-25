@@ -1,0 +1,5 @@
+#!/usr/bin/perl -w
+
+# use String::ShellQuote;
+
+system "echo '(SayText \"".join(" ",@ARGV)."\")' | festival /var/lib/myfrdcsa/codebases/internal/audience/fest-slow.conf --pipe";

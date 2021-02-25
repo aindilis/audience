@@ -1,0 +1,8 @@
+$VAR1 = [
+	 "Communication-Email",
+	 "Communication-IM",
+	 "Communication-Phone",
+	 "Communication-Letter",
+	 "Communication-Speech",
+	];
+

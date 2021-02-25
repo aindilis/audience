@@ -1,0 +1,17 @@
+#!/usr/bin/python
+
+import urllib
+import sys
+import chardet
+
+import pprint
+pp = pprint.PrettyPrinter(indent=4)
+
+for arg in sys.argv:
+    rawdata = file(arg).read()
+    pp.pprint(chardet.detect(rawdata))
+
+# rawdata = urllib.urlopen('http://yahoo.co.jp/').read()
+
+
+
